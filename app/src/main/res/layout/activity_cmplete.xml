@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".CmpleteRequestActivity">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="@dimen/twofive"
+            android:textColor="#80000000"
+            android:layout_marginTop="@dimen/fivezero"
+            android:layout_marginLeft="@dimen/sevenzero"
+            android:layout_marginRight="@dimen/sevenzero"
+            android:text="Your Complain Register Successfully.\n Your Code"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="123"
+            android:gravity="center"
+            android:textSize="@dimen/twofive"
+            android:layout_marginTop="@dimen/oneninezero"
+            android:textColor="#ff0000"
+            android:id="@+id/tv_codeid"/>
+
+    <ImageView
+        android:layout_width="@dimen/threezerozero"
+        android:layout_height="@dimen/threezerozero"
+        android:src="@drawable/cmplogo"
+        android:layout_marginLeft="@dimen/onefive"/>
+
+
+
+</RelativeLayout>

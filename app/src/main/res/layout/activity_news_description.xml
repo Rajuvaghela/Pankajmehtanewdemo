@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.pankajmehtanewdemo.NewsDescription">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/twozerozero"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView_new_detail"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/twoonezero"
+                android:scaleType="fitXY" />
+
+            <TextView
+                android:id="@+id/textview_news_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/onefive"
+                android:background="#ffffff"
+                android:paddingLeft="@dimen/onezero"
+                android:text="title"
+                android:textAllCaps="true"
+                android:textSize="@dimen/oneeight"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textview_news_date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/five"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/onezero"
+                android:text="date"
+                android:textAllCaps="true"
+                android:textSize="@dimen/onesix" />
+
+            <TextView
+                android:id="@+id/textview_news_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView_new_detail"
+
+                android:background="#ffffff"
+                android:padding="@dimen/onezero"
+                android:text="@string/news"
+                android:textAllCaps="true"
+                android:textSize="@dimen/onesix" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/iv_share"
+        android:layout_width="@dimen/fivezero"
+        android:layout_height="@dimen/fivezero"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="@dimen/onezero"
+        android:layout_marginRight="@dimen/onezero"
+        android:src="@drawable/shareicon" />
+</RelativeLayout>

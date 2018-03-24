@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D4D4D4"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/twofivezero"
+        android:layout_margin="@dimen/two"
+        android:background="#F6813E"
+        android:gravity="center">
+
+        <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/circleImageview_image"
+            android:layout_width="@dimen/twozerozero"
+            android:layout_height="@dimen/twozerozero"
+            android:layout_gravity="center"
+            android:src="@drawable/pankaj"
+            app:civ_border_color="#a1a1a1"
+            app:civ_border_width="@dimen/two" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/seven"
+        android:layout_marginRight="@dimen/seven"
+        android:layout_marginTop="@dimen/onezero"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/three"
+            android:layout_marginTop="@dimen/five"
+            android:orientation="horizontal"
+
+            android:paddingLeft="@dimen/twozero">
+
+            <ImageView
+                android:layout_width="@dimen/onefour"
+                android:layout_height="@dimen/onefour"
+                android:layout_marginRight="@dimen/five"
+                android:src="@drawable/user" />
+
+            <TextView
+                android:id="@+id/tv_person_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/seven"
+                android:lineSpacingExtra="@dimen/two"
+                android:text="Pankaj Mehta"
+                android:textSize="@dimen/onefour"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/three"
+            android:layout_marginTop="@dimen/three"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/twozero">
+
+            <ImageView
+                android:layout_width="@dimen/onefour"
+                android:layout_height="@dimen/onefour"
+                android:layout_gravity="center"
+                android:layout_marginRight="@dimen/five"
+                android:src="@drawable/location" />
+
+            <TextView
+                android:id="@+id/tv_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/seven"
+                android:lineSpacingExtra="@dimen/two"
+                android:text="@string/tv_address"
+                android:textSize="@dimen/onetwo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/three"
+            android:layout_marginTop="@dimen/three"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/twozero">
+
+            <ImageView
+                android:layout_width="@dimen/onefour"
+                android:layout_height="@dimen/onefour"
+                android:layout_marginRight="@dimen/five"
+                android:src="@drawable/contact_no" />
+
+            <TextView
+                android:id="@+id/tv_d_contact_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/seven"
+                android:text="+91-740-524-8931"
+                android:textSize="@dimen/onetwo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/three"
+            android:layout_marginTop="@dimen/three"
+            android:orientation="horizontal"
+            android:paddingBottom="@dimen/three"
+            android:paddingLeft="@dimen/twozero">
+
+            <ImageView
+                android:layout_width="@dimen/onefour"
+                android:layout_height="@dimen/onefour"
+                android:layout_marginRight="@dimen/five"
+                android:src="@drawable/email" />
+
+            <TextView
+                android:id="@+id/tv_email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/seven"
+                android:text="deckoid@gmail.com"
+                android:textSize="@dimen/onetwo" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

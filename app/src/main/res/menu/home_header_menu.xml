@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="net.taptools.android.sportshistory.PlayerProfileActivity">
+    <item
+        android:id="@+id/notification"
+        android:title="Logout"
+        android:icon="@drawable/ic_notification"
+        app:showAsAction="always" />
+</menu>

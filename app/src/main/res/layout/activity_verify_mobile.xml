@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.8"
+        android:background="@drawable/orangegrad" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <EditText
+            android:id="@+id/et_mobile_no"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fourzero"
+            android:layout_marginBottom="@dimen/eight"
+            android:layout_marginLeft="@dimen/onezero"
+            android:layout_marginRight="@dimen/onezero"
+            android:layout_marginTop="@dimen/fivezero"
+            android:background="@drawable/square_back_customwhite"
+            android:gravity="center_vertical"
+            android:hint="Mobile no. : "
+            android:inputType="phone"
+            android:paddingLeft="@dimen/eight"
+            android:textSize="@dimen/twozero" />
+
+        <TextView
+            android:id="@+id/tv_gujrati_vagadsetu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/seven"
+            android:layout_marginLeft="@dimen/onezero"
+            android:layout_marginRight="@dimen/onezero"
+            android:layout_marginTop="@dimen/seven"
+            android:gravity="center"
+            android:text="વાગડસેતુ એપ્લિકેશન માં આપનુ સ્વાગત છે ! રજીસ્ટ્રેશન હેતુ તમારો મોબાઈલ નંબર અહીં લખો."
+            android:textColor="#000000"
+            android:textSize="@dimen/onefour" />
+
+        <TextView
+            android:id="@+id/tv_vagadsetu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/seven"
+            android:layout_marginLeft="@dimen/onezero"
+            android:layout_marginRight="@dimen/onezero"
+            android:layout_marginTop="@dimen/seven"
+            android:gravity="center"
+            android:text="@string/registration_text"
+            android:textColor="#000000"
+            android:textSize="@dimen/onefour" />
+
+        <Button
+            android:id="@+id/btn_veryfy_mobile"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fourzero"
+            android:layout_marginBottom="@dimen/eight"
+            android:layout_marginLeft="@dimen/onezero"
+            android:layout_marginRight="@dimen/onezero"
+            android:layout_marginTop="@dimen/onezero"
+            android:background="#F6813E"
+            android:gravity="center"
+            android:text="Verify Mobile"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/onefour" />
+
+        <ImageView
+            android:layout_width="@dimen/onefivezero"
+            android:layout_height="@dimen/onefivezero"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/eight"
+            android:layout_marginTop="@dimen/five"
+            android:paddingTop="@dimen/onezero"
+
+            android:src="@drawable/pmlogo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/threezero"
+            android:layout_marginLeft="@dimen/onezero"
+            android:layout_marginRight="@dimen/onezero"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/fourzero"
+                android:layout_height="@dimen/fourzero"
+                android:src="@mipmap/flower" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/twozero"
+                android:text="Pankaj Mehta"
+                android:textColor="#F6813E"
+                android:textSize="@dimen/twofive" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</RelativeLayout>

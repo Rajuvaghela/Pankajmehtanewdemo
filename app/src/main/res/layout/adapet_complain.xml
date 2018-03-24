@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <LinearLayout
+        android:id="@+id/disshow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/oneeight"
+            android:layout_marginRight="@dimen/onefive"
+            android:layout_marginTop="@dimen/twozero"
+            android:background="@drawable/square_back_customwhite"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:id="@+id/iv_color_set"
+                        android:layout_width="@dimen/onefive"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="@dimen/one"
+                        android:background="#ff0000"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/tv_setcode"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/oneeight"
+                        android:layout_marginRight="@dimen/onefive"
+                        android:text="Code : - VGA1001"
+                        android:textSize="@dimen/twozero" />
+
+                    <TextView
+                        android:id="@+id/textset_cmp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/oneeight"
+                        android:layout_marginRight="@dimen/onefive"
+                        android:textSize="15dp"
+                        android:visibility="gone" />
+
+
+                    <TextView
+                        android:id="@+id/compmsg"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/oneeight"
+                        android:layout_marginRight="@dimen/onefive"
+                        android:text="તમારી ફરીયાદની નોંધણી થઈ ગઈ છે."
+                        android:textSize="12dp" />
+
+                    <TextView
+                        android:id="@+id/tv_setdate"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/oneeight"
+                        android:layout_marginRight="@dimen/onefive"
+                        android:text="26-06-2017"
+                        android:textSize="12dp" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_requestpending"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/twozero"
+                        android:layout_marginTop="@dimen/two"
+                        android:orientation="horizontal">
+
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/onefive"
+                            android:text="Request Pending"
+                            android:layout_marginLeft="@dimen/oneeight"
+                            android:textSize="12dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_underprocess"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/twozero"
+                        android:layout_marginTop="@dimen/two"
+                        android:visibility="gone"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="@dimen/onefive"
+                            android:text="Under Process"
+                            android:layout_marginLeft="@dimen/oneeight"
+                            android:textSize="12dp" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/ll_complete"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/twozero"
+                        android:layout_marginTop="@dimen/two"
+                        android:visibility="gone"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/oneeight"
+                            android:layout_marginRight="@dimen/onefive"
+                            android:text="Complete"
+                            android:textSize="12dp" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

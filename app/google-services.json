@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "665606054079",
+    "firebase_url": "https://pankajmehta-5e481.firebaseio.com",
+    "project_id": "pankajmehta-5e481",
+    "storage_bucket": "pankajmehta-5e481.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665606054079:android:130c0df67ed88914",
+        "android_client_info": {
+          "package_name": "com.pankajmehtanewdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665606054079-lor792to5i5nkfs6m4ms80hsp2djflv9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pankajmehtanewdemo",
+            "certificate_hash": "b6a6835ddb3190f8f06dc109883ff9c8f86e6d97"
+          }
+        },
+        {
+          "client_id": "665606054079-pc0dvpiu9cho5jtln0unjv1c6pq42j56.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDydt1e489MLxCa55ced7Vv4QT91PPfjWo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665606054079-pc0dvpiu9cho5jtln0unjv1c6pq42j56.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

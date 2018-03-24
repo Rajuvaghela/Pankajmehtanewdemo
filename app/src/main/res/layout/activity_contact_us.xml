@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.8"
+        android:background="@drawable/orangegrad" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:orientation="vertical"
+        android:scrollbars="none">
+        <ImageView
+            android:layout_width="@dimen/onefivezero"
+            android:layout_height="@dimen/onefivezero"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/eight"
+            android:layout_marginTop="@dimen/five"
+            android:paddingTop="@dimen/onezero"
+
+            android:src="@drawable/pmlogo" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/threezero"
+            android:layout_marginLeft="@dimen/onezero"
+            android:layout_marginRight="@dimen/onezero"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/fourzero"
+                android:layout_height="@dimen/fourzero"
+                android:src="@mipmap/flower" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/twozero"
+                android:text="Pankaj Mehta"
+                android:textColor="#F6813E"
+                android:textSize="@dimen/twofive" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fivezero"
+
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="પંકજ મહેતા (BJP) સંપર્ક માહિતી"
+                android:textAlignment="center"
+                android:textSize="@dimen/twozero" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="@dimen/onezero">
+
+            <ImageView
+                android:layout_width="@dimen/twozero"
+                android:layout_height="@dimen/twozero"
+                android:src="@drawable/add" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/twozero"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/onezero"
+                android:text="એકતા નગર કોર્નેર,રાપર(કચ્છ)"
+                android:textSize="@dimen/onefive" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:id="@+id/ll_call"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="@dimen/onezero">
+
+            <ImageView
+                android:layout_width="@dimen/twozero"
+                android:layout_height="@dimen/twozero"
+                android:src="@drawable/call" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/twozero"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/onezero"
+                android:text="+919825880882"
+                android:textSize="@dimen/onefive" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="@dimen/onezero">
+
+            <ImageView
+                android:layout_width="@dimen/twozero"
+                android:layout_height="@dimen/twozero"
+                android:src="@drawable/mail" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/twozero"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/onezero"
+                android:text="pamehtabjp@gmail.com"
+                android:textSize="@dimen/onefive" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

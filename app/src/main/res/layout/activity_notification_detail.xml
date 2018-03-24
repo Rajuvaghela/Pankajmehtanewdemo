@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D4D4D4"
+    tools:context="com.pankajmehtanewdemo.NewsDescription">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_marginBottom="@dimen/twozerozero"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="match_parent"
+                android:src="@drawable/pankaj"
+                android:scaleType="fitXY"
+                android:id="@+id/imageView_noti_detail"
+                android:layout_height="@dimen/twoonezero" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/imageView_noti_detail"
+                android:layout_margin="@dimen/onezero"
+                android:textSize="@dimen/oneeight"
+                android:textAllCaps="true"
+                android:id="@+id/textview_noti_title"
+                android:textStyle="bold"
+                android:padding="@dimen/onezero"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_below="@+id/textview_noti_title"
+                android:layout_marginLeft="@dimen/onezero"
+                android:layout_marginRight="@dimen/onezero"
+                android:textSize="@dimen/onezero"
+                android:textAllCaps="true"
+                android:id="@+id/textview_noti_detail"
+                android:background="#ffffff"
+                android:textStyle="bold"
+                android:padding="@dimen/onezero"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

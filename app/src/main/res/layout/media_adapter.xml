@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/onefourfive"
+    android:layout_marginBottom="@dimen/four"
+    android:layout_marginLeft="@dimen/two"
+    android:layout_marginRight="@dimen/two"
+    android:layout_marginTop="@dimen/four"
+    android:background="#FFFFFF">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/onefourfive"
+        android:background="@drawable/shadow">
+
+        <ImageView
+            android:id="@+id/iv_media_image"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/onefourfive"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/tv_media_des"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fourzero"
+            android:layout_alignParentBottom="true"
+            android:background="#80000000"
+            android:ellipsize="end"
+            android:maxLines="2"
+            android:paddingLeft="@dimen/five"
+            android:paddingTop="@dimen/two"
+            android:text="pankaj mehta pankaj pankaj pankaj pankaj mehta pankaj mehta pankaj mehta pankaj mehta pankaj mehta mehta pankaj mehta pankaj mehta pankaj mehta pankaj mehta pankaj mehta pankaj mehta pankaj mehta"
+            android:inputType="textMultiLine"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+                        android:textColor="#ffffff"
+            android:textSize="@dimen/onefour" />
+    </RelativeLayout>
+</RelativeLayout>

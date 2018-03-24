@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="6dp"
+        android:background="#FFFFFF"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_mobile_number_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/onezero"
+            android:padding="@dimen/onezero"
+            android:paddingLeft="@dimen/onezero"
+            android:text="7405248931"
+            android:textColor="#3875D6"
+            android:textSize="@dimen/onefive" />
+
+        <TextView
+            android:id="@+id/message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/onezero"
+            android:lineSpacingExtra="@dimen/three"
+            android:padding="@dimen/onezero"
+            android:text="Hello! As per your request we will send your password on above registered mobile number.Please login with same."
+            android:textColor="#333333"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:background="#F6813E"
+            android:text="OK"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_close"
+        android:layout_width="@dimen/threezero"
+        android:layout_height="@dimen/threezero"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="@dimen/eight"
+        android:layout_marginTop="@dimen/seven"
+        android:background="@drawable/cancel"
+        android:padding="@dimen/five"
+
+
+        />
+
+
+</RelativeLayout>

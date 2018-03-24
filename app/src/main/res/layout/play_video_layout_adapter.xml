@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/four"
+    android:layout_marginLeft="@dimen/two"
+    android:layout_marginRight="@dimen/two"
+    android:layout_marginTop="@dimen/four"
+    android:background="#D4D4D4"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shadow"
+
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/YoutubeVideoView"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/onesixfive"
+            android:layout_marginLeft="@dimen/two"
+            android:src="@drawable/play_video"
+            android:layout_marginRight="@dimen/two"
+
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/onesixfive"
+        android:layout_marginLeft="@dimen/two"
+        android:layout_marginRight="@dimen/two">
+
+        <ImageView
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="@dimen/fivezero"
+            android:src="@drawable/play2" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

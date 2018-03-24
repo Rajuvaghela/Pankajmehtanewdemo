@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#E4E4E4"
+    android:orientation="vertical"
+    tools:context=".HomemenuActivity">
+    <LinearLayout
+        android:id="@+id/ll_main_slider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/intro_images"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/onefourzero"
+                android:layout_marginLeft="@dimen/five"
+                android:layout_marginRight="@dimen/five"
+
+                android:layout_marginTop="@dimen/seven"
+                android:fitsSystemWindows="true" />
+
+            <com.viewpagerindicator.CirclePageIndicator
+                android:id="@+id/indicator"
+                androidadding="10dip"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/intro_images"
+                android:layout_marginTop="@dimen/five"
+                app:fillColor="#000000"
+                app:radius="@dimen/five"
+                app:pageColor="#ff0000" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <!--    <android.support.v4.view.ViewPager
+            android:id="@+id/pager_introduction"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/oneeightzero"
+            android:layout_marginBottom="@dimen/three"
+            android:layout_marginLeft="@dimen/five"
+            android:layout_marginRight="@dimen/five"
+
+            android:layout_marginTop="@dimen/seven"
+            android:fitsSystemWindows="true"
+
+            android:padding="@dimen/onezero" />-->
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/threefive"
+                android:background="@drawable/social_update_bg">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/twozero"
+                    android:layout_marginTop="@dimen/onezero"
+                    android:background="#F6813E"
+                    android:gravity="center_vertical"
+                    android:padding="@dimen/five"
+
+
+                    android:text="Social Updates"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/onetwo" />
+            </LinearLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/ll3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:orientation="vertical">
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recyclerView_news"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="@dimen/five"
+                    android:layout_marginTop="@dimen/five"
+                    android:scrollbars="none" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+</LinearLayout>

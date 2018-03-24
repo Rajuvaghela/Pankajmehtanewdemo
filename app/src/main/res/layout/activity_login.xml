@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.pankajmehtanewdemo.LoginActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="0.8"
+        android:background="@drawable/orangegrad" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="@dimen/twozerozero"
+            android:layout_height="@dimen/twozerozero"
+            android:layout_gravity="center"
+            android:layout_marginBottom="@dimen/eight"
+            android:paddingTop="@dimen/onezero"
+            android:src="@drawable/pmlogo" />
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fivezero"
+            android:layout_marginBottom="@dimen/eight"
+            android:layout_marginLeft="@dimen/onezero"
+            android:layout_marginRight="@dimen/onezero"
+            android:layout_marginTop="@dimen/onezero"
+            android:background="@drawable/back_bottom"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:textSize="@dimen/twozero" />
+
+        <EditText
+            android:id="@+id/et_login_no"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fivezero"
+            android:layout_marginBottom="@dimen/eight"
+            android:layout_marginLeft="@dimen/onezero"
+            android:layout_marginRight="@dimen/onezero"
+            android:background="@drawable/square_back_customwhite"
+            android:hint="Mobile no. : "
+            android:inputType="number"
+            android:paddingLeft="@dimen/eight"
+            android:textSize="@dimen/twozero" />
+
+        <Button
+            android:id="@+id/bt_Login"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fivezero"
+            android:layout_marginBottom="@dimen/eight"
+            android:layout_marginLeft="@dimen/onezero"
+            android:layout_marginRight="@dimen/onezero"
+            android:layout_marginTop="@dimen/onezero"
+            android:background="@drawable/back_bottom"
+            android:text="Login"
+            android:textSize="@dimen/twozero" />
+
+        <Button
+            android:id="@+id/bt_Register"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fivezero"
+            android:layout_marginLeft="@dimen/onezero"
+            android:layout_marginRight="@dimen/onezero"
+            android:background="@drawable/back_bottom"
+            android:text="Register"
+            android:textSize="@dimen/twozero" />
+    </LinearLayout>
+</RelativeLayout>
